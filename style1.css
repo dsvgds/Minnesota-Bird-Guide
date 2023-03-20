@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-height: 100px;
+	width: 100%;
+	background-image:url('images/e.jpeg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+
+
+}
+ body{
+ 		background-color: #f0d5bc;
+ }
+nav{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Ribeye', cursive;
+}
+nav .b{
+width: 80px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: plum;
+	font-size: 17px;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 1s;
+
+}
+ul li a:hover{
+	background-color: white;
+	color: skyblue;
+}         
+
+h1{
+
+text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+font-size: 100px;
+color: white;
+padding: 430px;
+
+text-shadow: 1px 1px 5px gray;
+font-size: 80px;
+font-weight: 100;
+transition: 3s;
+
+}
+
+h1:hover{
+	-webkit-text-stroke: 2px white;
+	color:transparent ;
+}
+
+.welcome{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	color:#646697;
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 48px;
+	padding: 100px;
+	font-family: 'Rhodium Libre', serif;
+
+
+}
+
+
+h2{
+	font-size: 36px;
+	font-weight: 600;
+	font-family:'Ribeye', cursive; 
+
+}
+.birds{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+
+}
+h3{
+	color: plum;
+	text-align: center;
+	font-weight: 600;
+	margin: 0px 0;
+	font-family:'Ribeye', cursive; 
+
+}
+.birds-c{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 0px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.birds-c img{
+	width: 100%;
+	display: block;
+
+}
+
+.layer{
+	background:transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+}
+.layer:hover{
+	background:#f2e1cf;
+}
+.layer h3{
+	width: 100%;
+	font-weight: 500;
+	color: plum;
+	font-size: 26px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
+
+}
+.layer:hover h3{
+	bottom: 50%;
+	opacity: 1;
+}
+.birds-p{
+	flex-basis: 30%;
+	background: #f2e1cf;
+
+	margin-bottom: 5%;
+	margin-top: -30px;
+	padding: 20px 12px;
+	box-sizing:border-box;
+	color:#646697;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 26px;
+	font-family: 'Rhodium Libre', serif;
+}
+
+
+.con{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.cta {
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(images/Birdwatching.jpeg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.cta h4{
+	color:#fff;
+	margin-bottom: 40px;
+	padding:0;
+	font-family: 'Ribeye', cursive;;
+	font-size: 36px;
+}
+.cta a{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font-size: 24px;
+	border: 2px solid white;
+	padding: 14px 70px;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+.cta a::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background-color: plum;
+	display: block;
+	margin: auto;
+	transition: 1s;
+}
+.cta a:hover::after{
+	 width: 100%;
+}
+
+
+#foot ul li {
+display: inline-block;
+font-family: 'Ribeye', cursive;
+	float: left;
+}
+ul {
+	margin-left: 300px;
+	list-style-type: none;
+}
+li {
+padding: 10px 20px;
+
+}
+
+.top {
+  --offset: 50px; 
+
+  position: sticky;
+  bottom: 10px;      
+  margin-right: 600px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: plum;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+
+
+
+
+.animation {
+  opacity: 0; 
+  transform: translateY(-50px); 
+  animation: fadeInDown 3s ease-out forwards; 
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

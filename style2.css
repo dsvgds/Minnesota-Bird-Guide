@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-height: 100px;
+	width: 100%;
+	background-image:url('images/BlueJay.jpeg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding: 0px 0px 940px;
+
+
+
+}
+ body{
+ 		background-color: #f0d5bc;
+ }
+nav{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Ribeye', cursive;
+}
+nav .b{
+width: 80px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: plum;
+	font-size: 17px;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 1s;
+
+}
+ul li a:hover{
+	background-color: white;
+	color: skyblue;
+}         
+
+h1{
+	font-family: 'Ribeye', cursive;
+	font-size: 36px;
+	line-height: 100px;
+
+}
+
+.welcome{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	color:#646697;
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 48px;
+	padding: 100px;
+	font-family: 'Rhodium Libre', serif;
+
+
+}
+
+#image {
+width: 600px;
+height:600px;
+background-image: url("images/CommonLoon.jpeg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 1px auto;
+position: absolute;
+
+
+}
+.Author {
+	font-size: 26px;
+color: #646697;
+ font-family: 'Rhodium Libre', serif;
+line-height: 52px;
+width: 1100px;
+ 
+  padding:10px 0px 50px 650px;
+  background-color:#f2e1cf ;
+  background-size: 100%;
+ 
+}
+.heading{
+	font-size: 32px;
+color: #3a317d;
+font-family: 'Ribeye', cursive;
+line-height: 0px;
+margin: 100px 100px 0px 0px;
+
+  padding:0px 0px 20px 650px;
+
+}
+
+#image1 {
+width: 600px;
+height:600px;
+background-image: url("images/BaldEagle.jpeg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 1px auto;
+position: absolute;
+margin-left: 1160px;
+
+
+}
+.Author1 {
+	font-size: 26px;
+color: #646697;
+ font-family: 'Rhodium Libre', serif;
+line-height: 52px;
+width: 1100px;
+ 
+  padding:10px 650px 50px 0px;
+  background-color:#f2e1cf ;
+  background-size: 100%;
+
+}
+.heading1{
+	font-size: 32px;
+color: #3a317d;
+font-family: 'Ribeye', cursive;
+line-height: 0px;
+margin: 100px 100px 0px 0px;
+
+  padding:0px 0px 20px 650px;
+
+}
+
+
+#image2 {
+width: 600px;
+height:600px;
+background-image: url("images/AmericanGoldfinch.jpeg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 1px auto;
+position: absolute;
+
+
+}
+
+
+#image3 {
+width: 600px;
+height:600px;
+background-image: url("images/NorthernCardinal.jpeg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 1px auto;
+position: absolute;
+margin-left: 1160px;
+}
+
+#image4 {
+width: 600px;
+height:600px;
+background-image: url("images/BlueJay1.jpeg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 1px auto;
+position: absolute;
+}
+
+#image5 {
+width: 600px;
+height:600px;
+background-image: url("images/Red-wingedBlackbird.jpeg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 1px auto;
+position: absolute;
+margin-left: 1160px;
+}
+
+
+#image6 {
+width: 600px;
+height:600px;
+background-image: url("images/greatblueheron.jpeg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 1px auto;
+position: absolute;
+}
+
+
+
+
+#foot ul li {
+display: inline-block;
+font-family: 'Ribeye', cursive;
+	float: left;
+}
+ul {
+	margin-left: 300px;
+	list-style-type: none;
+}
+li {
+padding: 10px 20px;
+
+}
+
+.top {
+  --offset: 50px; 
+
+  position: sticky;
+  bottom: 10px;      
+  margin-right: 600px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: plum;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+
+
+
+
+.animation {
+  opacity: 0; 
+  transform: translateY(-50px); 
+  animation: fadeInDown 3s ease-out forwards; 
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
